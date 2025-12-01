@@ -1,0 +1,9 @@
+name: Automacao Ebook
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Exemplo
+        run: echo 'Automação do e-book executada'
